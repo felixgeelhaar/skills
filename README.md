@@ -1,8 +1,8 @@
-# Claude Code Expert Skills
+# Expert Skills for AI Coding Agents
 
-A collection of expert-level skills for [Claude Code](https://claude.ai/code) that act as senior thinking partners across product, engineering, design, AI, and go-to-market disciplines.
+A collection of expert-level skills for AI coding agents that act as senior thinking partners across product, engineering, design, AI, and go-to-market disciplines.
 
-Each skill brings deep domain knowledge grounded in named practitioners and frameworks, operates through Socratic questioning, and cross-references the others to form an integrated advisory network.
+Each skill brings deep domain knowledge grounded in named practitioners and frameworks, operates through Socratic questioning, and cross-references the others to form an integrated advisory network. The skills are agent-agnostic — they work with any AI coding agent that supports system prompt injection or skill files (Claude Code, Cursor, Windsurf, Cline, Aider, etc.).
 
 ## Skills
 
@@ -26,11 +26,11 @@ The skills form a cross-functional advisory network. Each skill knows when to de
                   engineering-expert
 ```
 
-- **engineering-expert** evaluates architecture and invokes `/product-expert` for business context, `/ux-expert` for user impact, `/ai-expert` for AI-specific decisions
-- **product-expert** drives strategy and invokes `/ux-expert` for design thinking, `/gtm-expert` for market strategy, `/ai-expert` for AI feature evaluation
-- **ux-expert** reviews interfaces and invokes `/product-expert` for prioritization, `/ai-expert` for AI UX patterns
-- **ai-expert** evaluates AI architecture and invokes `/product-expert` for strategy, `/ux-expert` for AI UX review
-- **gtm-expert** plans go-to-market and invokes `/product-expert` for positioning alignment
+- **engineering-expert** evaluates architecture and defers to `product-expert` for business context, `ux-expert` for user impact, `ai-expert` for AI-specific decisions
+- **product-expert** drives strategy and defers to `ux-expert` for design thinking, `gtm-expert` for market strategy, `ai-expert` for AI feature evaluation
+- **ux-expert** reviews interfaces and defers to `product-expert` for prioritization, `ai-expert` for AI UX patterns
+- **ai-expert** evaluates AI architecture and defers to `product-expert` for strategy, `ux-expert` for AI UX review
+- **gtm-expert** plans go-to-market and defers to `product-expert` for positioning alignment
 
 ## Operating Modes
 
@@ -45,56 +45,36 @@ Every skill supports multiple modes of engagement:
 
 ## Installation
 
-### Option 1: Install Individual Skills
-
-Copy a specific skill into your Claude Code skills directory:
+### Using with Claude Code
 
 ```bash
-# Create the skill directory
-mkdir -p ~/.claude/skills/<skill-name>
-
-# Copy the skill file
-cp <skill-name>/SKILL.md ~/.claude/skills/<skill-name>/SKILL.md
-```
-
-### Option 2: Install All Skills
-
-```bash
-# Clone the repository
-git clone https://github.com/felixgeelhaar/skills.git /tmp/claude-skills
-
-# Copy all skills
+# Install all skills
+git clone https://github.com/felixgeelhaar/skills.git /tmp/expert-skills
 for skill in ai-expert engineering-expert gtm-expert product-expert ux-expert; do
   mkdir -p ~/.claude/skills/$skill
-  cp /tmp/claude-skills/$skill/SKILL.md ~/.claude/skills/$skill/SKILL.md
+  cp /tmp/expert-skills/$skill/SKILL.md ~/.claude/skills/$skill/SKILL.md
 done
 ```
 
-### Option 3: Symlink (for Development)
+### Using with Cursor / Windsurf / Other Agents
 
-```bash
-# Clone to a permanent location
-git clone https://github.com/felixgeelhaar/skills.git ~/Developer/skills
+Copy the content of any `SKILL.md` into your agent's system prompt, rules file, or custom instructions:
 
-# Symlink each skill
-for skill in ai-expert engineering-expert gtm-expert product-expert ux-expert; do
-  ln -sf ~/Developer/skills/$skill ~/.claude/skills/$skill
-done
-```
+- **Cursor**: Add to `.cursorrules` or project-level rules
+- **Windsurf**: Add to `.windsurfrules` or workspace instructions  
+- **Cline**: Add to custom instructions in settings
+- **Aider**: Add to `.aider.conf.yml` conventions or use `--read` flag
+- **Any agent**: Paste the SKILL.md content as a system prompt or prepend it to your conversation
 
-## Usage
+### Using as Standalone Prompts
 
-Skills activate automatically when Claude Code detects relevant context. You can also invoke them explicitly:
+Each `SKILL.md` is a self-contained expert prompt. You can use it directly with any LLM:
 
-```
-/engineering-expert   — Evaluate architecture or technical decisions
-/product-expert       — Think through product strategy or write product documents
-/ux-expert            — Review interfaces, accessibility, or UX patterns
-/ai-expert            — Evaluate AI features, model choices, or AI architecture
-/gtm-expert           — Plan go-to-market, positioning, or launch strategy
-```
+1. Copy the content after the YAML frontmatter (`---`)
+2. Paste it as a system prompt in ChatGPT, Claude, Gemini, or any LLM interface
+3. Start asking questions — the skill will guide the interaction
 
-### Example Interactions
+## Usage Examples
 
 **Architecture evaluation:**
 > "We're considering moving from a monolith to microservices. Our team is 8 engineers and we serve ~5,000 requests/second."
@@ -113,13 +93,14 @@ Skills activate automatically when Claude Code detects relevant context. You can
 
 ## Skill File Format
 
-Each skill follows the Claude Code SKILL.md format:
+Each skill follows a frontmatter + markdown structure:
 
 ```yaml
 ---
 name: skill-name
 description: >
-  Role description with TRIGGER conditions and DO NOT TRIGGER exclusions.
+  Role description with TRIGGER conditions (when to activate)
+  and DO NOT TRIGGER exclusions (when to stay silent).
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, ...
 ---
 
@@ -130,13 +111,16 @@ allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, ...
 - Output format templates
 ```
 
+The `allowed-tools` field is agent-specific and can be adapted to whatever tool/function calling your agent supports. The core value is in the markdown body — the knowledge base, frameworks, and operating modes.
+
 ### Key Design Principles
 
 - **Named thinkers, not generic advice** — Every framework is attributed. No "best practices say..." without a source.
 - **Socratic by default** — Skills question before they answer. Assumptions are surfaced, not bypassed.
 - **Trade-offs over recommendations** — Every recommendation names what you're giving up.
 - **Concrete over abstract** — Quality attributes are scenarios with response measures, not vague "-ilities".
-- **Cross-functional by design** — Skills invoke each other at discipline boundaries rather than overstepping.
+- **Cross-functional by design** — Skills defer to each other at discipline boundaries rather than overstepping.
+- **Agent-agnostic** — The knowledge and frameworks work regardless of which AI agent runs them.
 
 ## Contributing
 
