@@ -1,8 +1,8 @@
-# Expert Skills for AI Coding Agents
+# Expert Skills for AI Agents
 
-A collection of 19 expert-level skills for AI coding agents that act as senior thinking partners across engineering, product, design, data, security, operations, strategy, growth, and business disciplines.
+A collection of 25 expert-level skills for AI agents that act as senior thinking partners across engineering, product, design, data, security, operations, strategy, growth, business, and personal development disciplines.
 
-Each skill brings deep domain knowledge grounded in named practitioners and frameworks, operates through Socratic questioning, and cross-references the others to form an integrated advisory network. The skills are agent-agnostic — they work with any AI coding agent that supports system prompt injection or skill files (Claude Code, Cursor, Windsurf, Cline, Aider, etc.).
+Each skill brings deep domain knowledge grounded in named practitioners and frameworks, operates through Socratic questioning, and cross-references the others to form an integrated advisory network. The skills are agent-agnostic — they work with any AI coding agent that supports system prompt injection or skill files (Claude Code, Cursor, Windsurf, Cline, Aider, etc.), or as standalone LLM prompts.
 
 ## Skills
 
@@ -40,6 +40,17 @@ Each skill brings deep domain knowledge grounded in named practitioners and fram
 | [**finance-expert**](./finance-expert/) | Unit economics, pricing models, SaaS metrics, revenue | Skok, Lemkin, Campbell, Ramanujam, Tringas, FinOps |
 | [**people-expert**](./people-expert/) | Team topologies, org design, engineering leadership | Skelton & Pais, Larson, Fournier, Reilly, Lencioni, Pink |
 
+### Personal
+
+| Skill | Role | Grounded In |
+|-------|------|-------------|
+| [**thinking-expert**](./thinking-expert/) | Mental models, cognitive biases, decision-making, systems thinking | Kahneman, Parrish, Duke, Meadows, Galef, Munger, Taleb, Tetlock |
+| [**coach-expert**](./coach-expert/) | Life & leadership coaching, 7 Habits, personal effectiveness | Covey, Bungay Stanier, Goldsmith, Frankl, Dweck, Sinek, Brown |
+| [**learning-expert**](./learning-expert/) | Knowledge management, deliberate practice, meta-learning | Forte, Ahrens, Ericsson, Young, Newport, Csikszentmihalyi, Oakley |
+| [**communication-expert**](./communication-expert/) | Negotiation, difficult conversations, storytelling, persuasion | Voss, Stone/Patton/Heen, Rosenberg, Duarte, Cialdini, Scott |
+| [**wellness-expert**](./wellness-expert/) | Habits, energy management, burnout prevention, deep work | Clear, Walker, Huberman, Nagoski, Loehr & Schwartz, Newport |
+| [**personal-finance-expert**](./personal-finance-expert/) | Investing, budgeting, wealth building, behavioral finance | Housel, Collins, Sethi, Bernstein, Bogle, Malkiel, Thaler |
+
 ## How They Work Together
 
 The skills form a cross-functional advisory network. Each skill knows when to defer to another:
@@ -57,12 +68,12 @@ The skills form a cross-functional advisory network. Each skill knows when to de
              |    \     |     /
       engineering-expert |   /
           |    |    \   |  /
-   quality-expert  people-expert
-          |         |
-     devops-expert  rdops-expert
-          |              |
-   security-expert  bizops-expert
-          |
+   quality-expert  people-expert ── communication-expert
+          |         |                      |
+     devops-expert  rdops-expert     coach-expert
+          |              |           /    |    \
+   security-expert  bizops-expert  thinking  wellness
+          |                        learning  personal-finance
      legal-expert
 ```
 
@@ -90,6 +101,14 @@ The skills form a cross-functional advisory network. Each skill knows when to de
 - `customer-success-expert` designs post-sale experience, defers to `product-expert` for product-led onboarding, `growth-expert` for retention loops, `revops-expert` for renewal operations
 - `finance-expert` models the business, defers to `product-expert` for pricing strategy, `gtm-expert` for revenue model
 - `people-expert` designs org structure, defers to `engineering-expert` for Conway's Law alignment, `rdops-expert` for developer experience
+
+### Personal flow
+- `thinking-expert` sharpens decision-making across all domains, defers to `strategy-expert` for competitive decisions, `coach-expert` for personal values alignment
+- `coach-expert` guides personal effectiveness and leadership, defers to `thinking-expert` for decision frameworks, `wellness-expert` for energy/habits, `communication-expert` for interpersonal skills, `people-expert` for team leadership
+- `learning-expert` designs how you learn and retain, defers to `thinking-expert` for meta-cognition, `content-expert` for knowledge organization
+- `communication-expert` designs conversations and narratives, defers to `coach-expert` for personal development, `people-expert` for team dynamics, `content-expert` for written communication
+- `wellness-expert` designs sustainable habits and energy systems, defers to `coach-expert` for goal setting, `thinking-expert` for behavioral change
+- `personal-finance-expert` provides financial education, defers to `thinking-expert` for decision biases, `coach-expert` for values alignment
 
 ## Operating Modes
 
@@ -134,6 +153,8 @@ Each `SKILL.md` is a self-contained expert prompt. You can use it directly with 
 3. Start asking questions — the skill will guide the interaction
 
 ## Usage Examples
+
+### Professional
 
 **Architecture evaluation:**
 > "We're considering moving from a monolith to microservices. Our team is 8 engineers and we serve ~5,000 requests/second."
@@ -191,6 +212,26 @@ Each `SKILL.md` is a self-contained expert prompt. You can use it directly with 
 
 **Customer success:**
 > "Our logo churn is 5% monthly but we don't know why customers leave."
+
+### Personal
+
+**Decision-making:**
+> "I'm choosing between two job offers. How do I think through this clearly?"
+
+**Coaching:**
+> "I feel like I'm busy but not making progress on what matters. Help me prioritize."
+
+**Learning:**
+> "I need to learn Rust for a new role. How do I ramp up efficiently in 3 months?"
+
+**Negotiation:**
+> "I have a salary negotiation next week. How should I prepare?"
+
+**Habits & energy:**
+> "I'm burned out and my sleep is terrible. Where do I start?"
+
+**Personal finance:**
+> "I have savings sitting in a bank account. How should I think about investing?"
 
 ## Skill File Format
 
