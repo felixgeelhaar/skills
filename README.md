@@ -1,6 +1,6 @@
 # Expert Skills for AI Agents
 
-A collection of 25 expert-level skills for AI agents that act as senior thinking partners across engineering, product, design, data, security, operations, strategy, growth, business, and personal development disciplines.
+A collection of 28 expert-level skills for AI agents that act as senior thinking partners across engineering, product, design, data, security, operations, strategy, growth, sales, delivery, and personal development disciplines.
 
 Each skill brings deep domain knowledge grounded in named practitioners and frameworks, operates through Socratic questioning, and cross-references the others to form an integrated advisory network. The skills are agent-agnostic — they work with any AI coding agent that supports system prompt injection or skill files (Claude Code, Cursor, Windsurf, Cline, Aider, etc.), or as standalone LLM prompts.
 
@@ -39,6 +39,14 @@ Each skill brings deep domain knowledge grounded in named practitioners and fram
 | [**customer-success-expert**](./customer-success-expert/) | Onboarding, health scoring, churn, expansion revenue | Mehta, Murphy, Weber, Pickens, Lemkin, Poyar |
 | [**finance-expert**](./finance-expert/) | Unit economics, pricing models, SaaS metrics, revenue | Skok, Lemkin, Campbell, Ramanujam, Tringas, FinOps |
 | [**people-expert**](./people-expert/) | Team topologies, org design, engineering leadership | Skelton & Pais, Larson, Fournier, Reilly, Lencioni, Pink |
+
+### Sell & Deliver
+
+| Skill | Role | Grounded In |
+|-------|------|-------------|
+| [**sales-expert**](./sales-expert/) | Discovery, demos, objection handling, closing | Rackham, Dixon & Adamson, Sandler, Keenan, Blount, Bosworth |
+| [**facilitation-expert**](./facilitation-expert/) | Workshops, design sprints, retrospectives, group decisions | Kaner, Lipmanowicz & McCandless, Knapp, Derby & Larsen, Owen |
+| [**project-expert**](./project-expert/) | Delivery execution, forecasting, flow metrics, shipping | Singer, Anderson, Duarte, Holub, DeMarco, Magennis |
 
 ### Personal
 
@@ -101,6 +109,11 @@ The skills form a cross-functional advisory network. Each skill knows when to de
 - `customer-success-expert` designs post-sale experience, defers to `product-expert` for product-led onboarding, `growth-expert` for retention loops, `revops-expert` for renewal operations
 - `finance-expert` models the business, defers to `product-expert` for pricing strategy, `gtm-expert` for revenue model
 - `people-expert` designs org structure, defers to `engineering-expert` for Conway's Law alignment, `rdops-expert` for developer experience
+
+### Sell & deliver flow
+- `sales-expert` designs selling conversations, defers to `gtm-expert` for positioning, `revops-expert` for pipeline, `customer-success-expert` for handoff, `communication-expert` for negotiation
+- `facilitation-expert` designs group sessions, defers to `people-expert` for team dynamics, `product-expert` for alignment workshops, `bizops-expert` for operating cadences
+- `project-expert` designs delivery execution, defers to `product-expert` for scope, `engineering-expert` for architecture risk, `people-expert` for team capacity, `rdops-expert` for developer productivity
 
 ### Personal flow
 - `thinking-expert` sharpens decision-making across all domains, defers to `strategy-expert` for competitive decisions, `coach-expert` for personal values alignment
@@ -232,6 +245,15 @@ Each `SKILL.md` is a self-contained expert prompt. You can use it directly with 
 
 **Personal finance:**
 > "I have savings sitting in a bank account. How should I think about investing?"
+
+**Sales preparation:**
+> "I have a discovery call with a VP of Engineering tomorrow. How do I prepare?"
+
+**Workshop design:**
+> "I need to run a 2-hour alignment session with 12 stakeholders who disagree on priorities."
+
+**Delivery forecasting:**
+> "The CEO wants to know when the v2 launch will ship. How do I give a credible answer?"
 
 ## Skill File Format
 
