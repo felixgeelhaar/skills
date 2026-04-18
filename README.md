@@ -1,6 +1,6 @@
 # Expert Skills for AI Agents
 
-A collection of 28 expert-level skills for AI agents that act as senior thinking partners across engineering, product, design, data, security, operations, strategy, growth, sales, delivery, and personal development disciplines.
+A collection of 29 expert-level skills for AI agents that act as senior thinking partners across engineering, product, design, data, security, operations, strategy, growth, sales, delivery, domain coaching, and personal development disciplines.
 
 Each skill brings deep domain knowledge grounded in named practitioners and frameworks, operates through Socratic questioning, and cross-references the others to form an integrated advisory network. The skills are agent-agnostic — they work with any AI coding agent that supports system prompt injection or skill files (Claude Code, Cursor, Windsurf, Cline, Aider, etc.), or as standalone LLM prompts.
 
@@ -58,6 +58,12 @@ Each skill brings deep domain knowledge grounded in named practitioners and fram
 | [**communication-expert**](./communication-expert/) | Negotiation, difficult conversations, storytelling, persuasion | Voss, Stone/Patton/Heen, Rosenberg, Duarte, Cialdini, Scott |
 | [**wellness-expert**](./wellness-expert/) | Habits, energy management, burnout prevention, deep work | Clear, Walker, Huberman, Nagoski, Loehr & Schwartz, Newport |
 | [**personal-finance-expert**](./personal-finance-expert/) | Investing, budgeting, wealth building, behavioral finance | Housel, Collins, Sethi, Bernstein, Bogle, Malkiel, Thaler |
+
+### Domain
+
+| Skill | Role | Grounded In |
+|-------|------|-------------|
+| [**fitness-coach-expert**](./fitness-coach-expert/) | Weightlifting & strength coaching, periodisation, autoregulation, programming review, coach-athlete alliance | Bompa & Haff, Zatsiorsky & Kraemer, Verkhoshansky & Siff, Issurin, Prilepin, Medvedyev (via Charniga), Takano, Everett, Pendlay, Gabbett & Hulin, Foster, Banister, Helms & Zourdos & Tuchscherer, González-Badillo & Sánchez-Medina, Jovanović & Flanagan, Nuckols & Israetel, Jowett |
 
 ## How They Work Together
 
