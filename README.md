@@ -1,6 +1,6 @@
 # Expert Skills for AI Agents
 
-A collection of 29 expert-level skills for AI agents that act as senior thinking partners across engineering, product, design, data, security, operations, strategy, growth, sales, delivery, domain coaching, and personal development disciplines.
+A collection of 30 expert-level skills for AI agents that act as senior thinking partners across engineering, product, design, data, security, operations, strategy, growth, sales, delivery, domain coaching, and personal development disciplines.
 
 Each skill brings deep domain knowledge grounded in named practitioners and frameworks, operates through Socratic questioning, and cross-references the others to form an integrated advisory network. The skills are agent-agnostic — they work with any AI coding agent that supports system prompt injection or skill files (Claude Code, Cursor, Windsurf, Cline, Aider, etc.), or as standalone LLM prompts.
 
@@ -27,6 +27,7 @@ Each skill brings deep domain knowledge grounded in named practitioners and fram
 | [**bizops-expert**](./bizops-expert/) | Process design, operating cadences, operational excellence | Pomper, Goldratt, Deming, Ohno, Reinertsen, Martin, Rother, Hughes Johnson |
 | [**rdops-expert**](./rdops-expert/) | Developer experience, DORA operationalization, internal platforms | Forsgren, Noda, Reinertsen, Larson, Skelton & Pais, Cooper |
 | [**revops-expert**](./revops-expert/) | Pipeline, CRM architecture, attribution, forecasting | Santa Elena, Lane, van der Kooij, Ross, Roberge, Ignacio |
+| [**executive-assistant-expert**](./executive-assistant-expert/) | Executive-office craft: calendar architecture, inbox triage, meeting design, decision staffing, EA/CoS scoping | Allen, Mann, Newport, Thomas, Graham, Cowen & Gross, Zhuo, Lopp, Rabois, McCormick, IAAP/CoS Association |
 
 ### Scale
 
@@ -106,6 +107,7 @@ The skills form a cross-functional advisory network. Each skill knows when to de
 - `bizops-expert` designs processes and operating cadences, defers to `people-expert` for org design, `finance-expert` for resource allocation, `revops-expert` and `rdops-expert` for domain-specific ops
 - `rdops-expert` optimizes developer experience, defers to `engineering-expert` for architecture, `devops-expert` for platform, `people-expert` for team design
 - `revops-expert` architects the revenue engine, defers to `gtm-expert` for strategy, `data-expert` for attribution, `finance-expert` for forecasting
+- `executive-assistant-expert` designs the executive office (calendar, inbox, meeting systems, decision staffing), defers to `communication-expert` for difficult conversations, `coach-expert` for the principal's personal effectiveness, `facilitation-expert` for offsite design, `bizops-expert` for broader process design, `people-expert` for hiring EA/CoS
 
 ### Scale flow
 - `strategy-expert` evaluates competitive position and portfolio, defers to `product-expert` for product strategy, `finance-expert` for M&A economics, `gtm-expert` for market positioning
@@ -231,6 +233,9 @@ Each `SKILL.md` is a self-contained expert prompt. You can use it directly with 
 
 **Customer success:**
 > "Our logo churn is 5% monthly but we don't know why customers leave."
+
+**Executive office:**
+> "My CEO's calendar is packed with 30-minute meetings and no deep work time. Help me redesign their week."
 
 ### Personal
 
