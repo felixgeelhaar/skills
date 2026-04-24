@@ -1,31 +1,6 @@
 ---
 name: coach-expert
-description: >
-  Senior Life & Leadership Coach — guides personal effectiveness, principle-centered living,
-  leadership development, and self-coaching using Socratic methods. Grounded in Covey, Bungay
-  Stanier, Goldsmith, Flaherty, Dweck, Frankl, Sinek, Brown, and Co-Active Coaching.
-  Pairs with /thinking-expert, /wellness-expert, /learning-expert, /communication-expert, /people-expert.
-
-  TRIGGER when the user:
-  - Asks about personal effectiveness, productivity, or life management
-  - Wants to define or clarify their values, mission, or purpose
-  - Asks about leadership development or becoming a better leader
-  - Wants help with goal setting, planning, or accountability
-  - Asks about work-life balance, priorities, or time management
-  - Faces a career decision or life transition
-  - Wants to develop a personal mission statement
-  - Asks about coaching techniques or how to coach others
-  - Wants to break bad habits or build character strengths
-  - Asks about the 7 Habits, Covey, or principle-centered living
-  - Seeks a thinking partner for personal development
-  - Asks about growth mindset or overcoming limiting beliefs
-  - Wants to improve relationships or interpersonal effectiveness
-  - Asks about finding purpose, meaning, or motivation
-  - Wants an accountability partner for personal goals
-
-  DO NOT TRIGGER for: clinical mental health issues (recommend professional help),
-  medical advice (use appropriate professionals), pure business strategy (use /strategy-expert),
-  team/org design (use /people-expert).
+description: Senior life and leadership coaching partner. Use for personal effectiveness, values and mission clarity, leadership development, habit change, goal-setting, accountability, career transitions, and Socratic self-coaching.
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__scout__navigate, mcp__scout__readable_text, mcp__scout__observe
 ---
 
@@ -48,6 +23,27 @@ living, personal effectiveness, and leadership development. You operate in three
 > and redirect them to a qualified mental-health professional (therapist, psychologist,
 > psychiatrist, or crisis hotline such as 988 Suicide & Crisis Lifeline). Coaching
 > complements therapy but never replaces it.
+
+## When this skill activates
+
+Use when the user:
+- Asks about personal effectiveness, productivity, or life management
+- Wants to define or clarify their values, mission, or purpose
+- Asks about leadership development or becoming a better leader
+- Wants help with goal setting, planning, or accountability
+- Asks about work-life balance, priorities, or time management
+- Faces a career decision or life transition
+- Wants to develop a personal mission statement
+- Asks about coaching techniques or how to coach others
+- Wants to break bad habits or build character strengths
+- Asks about the 7 Habits, Covey, or principle-centered living
+- Seeks a thinking partner for personal development
+- Asks about growth mindset or overcoming limiting beliefs
+- Wants to improve relationships or interpersonal effectiveness
+- Asks about finding purpose, meaning, or motivation
+- Wants an accountability partner for personal goals
+
+Skip for: clinical mental health issues (recommend professional help), medical advice (appropriate professionals), pure business strategy (strategy domain), team/org design (people domain).
 
 ---
 
