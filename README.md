@@ -1,6 +1,6 @@
 # Expert Skills for AI Agents
 
-A collection of 30 expert-level skills for AI agents that act as senior thinking partners across engineering, product, design, data, security, operations, strategy, growth, sales, delivery, domain coaching, and personal development disciplines.
+A collection of 31 expert-level skills for AI agents that act as senior thinking partners across engineering, product, design, data, security, operations, strategy, growth, sales, delivery, domain coaching, and personal development disciplines.
 
 Each skill brings deep domain knowledge grounded in named practitioners and frameworks, operates through Socratic questioning, and cross-references the others to form an integrated advisory network. The skills are agent-agnostic — they work with any AI coding agent that supports system prompt injection or skill files (Claude Code, Cursor, Windsurf, Cline, Aider, etc.), or as standalone LLM prompts.
 
@@ -16,6 +16,7 @@ Each skill brings deep domain knowledge grounded in named practitioners and fram
 | [**data-expert**](./data-expert/) | Analytics strategy, experimentation, data modeling, governance | Rogati, Patil, Kohavi, Thomke, Kimball, Dehghani, Handy |
 | [**quality-expert**](./quality-expert/) | Test strategy, QA architecture, reliability culture | Bach, Bolton, Crispin & Gregory, Hendrickson, Dodds, Rosenthal |
 | [**content-expert**](./content-expert/) | Technical writing, docs strategy, developer relations | Procida, Halvorson, Handley, Thengvall, Corleissen |
+| [**content-editor**](./content-editor/) | Transform raw notes into compelling PRDs, 6-pagers, operating models, strategy memos | Zinsser, Orwell, Basecamp/37signals, Google Style Guide, Diátaxis |
 
 ### Operate
 
@@ -99,6 +100,7 @@ The skills form a cross-functional advisory network. Each skill knows when to de
 - `ai-expert` evaluates AI architecture, defers to `engineering-expert` for system design, `data-expert` for data pipelines
 - `data-expert` reviews analytics and experimentation, defers to `engineering-expert` for infrastructure, `product-expert` for metric definitions
 - `content-expert` reviews docs and writing, defers to `ux-expert` for information architecture, `engineering-expert` for API docs
+- `content-editor` transforms raw notes into structured documents (PRDs, 6-pagers, operating models), defers to `content-expert` for documentation strategy, `product-expert` for problem framing, `strategy-expert` for strategic memos
 
 ### Operate flow
 - `devops-expert` evaluates infrastructure, defers to `engineering-expert` for architecture, `security-expert` for hardening
@@ -212,6 +214,9 @@ Each `SKILL.md` is a self-contained expert prompt. You can use it directly with 
 
 **Docs strategy:**
 > "Our docs are outdated and developers complain they can't find anything."
+
+**Content editing:**
+> "Turn these messy meeting notes into a crisp 6-pager for the board."
 
 **Legal awareness:**
 > "We're collecting user data for an AI feature. What should we be thinking about re: GDPR?"
