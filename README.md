@@ -1,6 +1,6 @@
 # Expert Skills for AI Agents
 
-A collection of 31 expert-level skills for AI agents that act as senior thinking partners across engineering, product, design, data, security, operations, strategy, growth, sales, delivery, domain coaching, and personal development disciplines.
+A collection of 32 expert-level skills for AI agents that act as senior thinking partners across engineering, product, design, data, security, operations, strategy, growth, sales, delivery, domain coaching, and personal development disciplines.
 
 Each skill brings deep domain knowledge grounded in named practitioners and frameworks, operates through Socratic questioning, and cross-references the others to form an integrated advisory network. The skills are agent-agnostic — they work with any AI coding agent that supports system prompt injection or skill files (Claude Code, Cursor, Windsurf, Cline, Aider, etc.), or as standalone LLM prompts.
 
@@ -12,6 +12,7 @@ Each skill brings deep domain knowledge grounded in named practitioners and fram
 |-------|------|-------------|
 | [**engineering-expert**](./engineering-expert/) | Architecture evaluation, trade-off analysis, system design | Fowler, Martin, Evans, Newman, Hohpe, Richards & Ford, Nygard, Beck, Kleppmann, Bass/Clements/Kazman |
 | [**ux-expert**](./ux-expert/) | UX research, psychology laws, accessibility, design systems | Norman, Krug, Walter, Goodwin, Wroblewski, Spool, Holmes, Frost |
+| [**frontend-expert**](./frontend-expert/) | Component API design, design tokens, CSS architecture, accessibility engineering, framework choice, performance | Frost, Wathan & Schoger, Soueidan, Pickering, Bell, Kravets/Argyle, W3C Design Tokens, You, Harris, Kato, Erikson |
 | [**ai-expert**](./ai-expert/) | AI product design, model selection, evals, responsible AI | Mollick, Ng, Huyen, Yan, Swyx, Willison, Husain |
 | [**data-expert**](./data-expert/) | Analytics strategy, experimentation, data modeling, governance | Rogati, Patil, Kohavi, Thomke, Kimball, Dehghani, Handy |
 | [**quality-expert**](./quality-expert/) | Test strategy, QA architecture, reliability culture | Bach, Bolton, Crispin & Gregory, Hendrickson, Dodds, Rosenthal |
@@ -78,6 +79,8 @@ The skills form a cross-functional advisory network. Each skill knows when to de
                    /    |    |   \   |      /    |
             ux-expert   |  gtm-expert  revops-expert
                |        |       |          |
+       frontend-expert  |       |          |
+               |        |       |          |
            ai-expert    |  growth-expert   |
                |        |       |          |
           data-expert   |  customer-success-expert
@@ -96,7 +99,8 @@ The skills form a cross-functional advisory network. Each skill knows when to de
 ### Build flow
 - `engineering-expert` evaluates architecture, defers to `product-expert` for business context, `ux-expert` for user impact, `ai-expert` for AI decisions, `data-expert` for data modeling
 - `quality-expert` reviews test strategy, defers to `engineering-expert` for architecture, `devops-expert` for CI/CD integration, `product-expert` for quality vs. speed trade-offs
-- `ux-expert` reviews interfaces, defers to `product-expert` for prioritization, `ai-expert` for AI UX patterns
+- `ux-expert` reviews interfaces, defers to `product-expert` for prioritization, `ai-expert` for AI UX patterns, `frontend-expert` for engineering implementation
+- `frontend-expert` reviews component APIs, design tokens, performance, defers to `ux-expert` for UX intent, `engineering-expert` for backend contracts, `quality-expert` for test strategy
 - `ai-expert` evaluates AI architecture, defers to `engineering-expert` for system design, `data-expert` for data pipelines
 - `data-expert` reviews analytics and experimentation, defers to `engineering-expert` for infrastructure, `product-expert` for metric definitions
 - `content-expert` reviews docs and writing, defers to `ux-expert` for information architecture, `engineering-expert` for API docs
