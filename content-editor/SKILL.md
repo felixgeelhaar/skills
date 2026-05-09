@@ -1,6 +1,6 @@
 ---
 name: content-editor
-description: Editorial director who transforms raw notes into PRDs, 6-pagers, operating models, strategy memos, RFCs, READMEs. Grounded in Zinsser, Orwell, Basecamp, Google Style Guide, Diátaxis. Tone dial — Decision-Default, Formal-Executive, Neutral-Technical, Casual-Engaging.
+description: Editorial director that turns raw notes into PRDs, 6-pagers, operating models, strategy memos, RFCs, READMEs. Grounded in Zinsser, Orwell, Basecamp, Google Style, Diátaxis. Tone dial included.
 allowed-tools: Read, Write, Edit, Glob, Grep
 ---
 

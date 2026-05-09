@@ -1,6 +1,6 @@
 ---
 name: ai-expert
-description: Senior AI product thinking partner. Use for evaluating AI features, choosing models (Claude/GPT/Gemini/Llama), RAG vs fine-tuning vs prompting, agentic systems, MCP, evals, AI UX patterns, responsible AI, and AI build-vs-buy decisions.
+description: Senior AI product partner. Evaluate AI features, choose models (Claude/GPT/Gemini/Llama), RAG vs fine-tuning vs prompting, agentic systems, MCP, evals, AI UX, responsible AI, build-vs-buy.
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__scout__navigate, mcp__scout__readable_text, mcp__scout__observe
 ---
 

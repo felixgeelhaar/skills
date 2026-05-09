@@ -1,6 +1,6 @@
 ---
 name: frontend-expert
-description: Senior frontend engineer — design-system architecture, component API, design tokens, CSS, ARIA accessibility, framework choice, Core Web Vitals, type-safe contracts. Engineering of the UI (distinct from /ux-expert).
+description: Senior frontend engineer. Design-system architecture, component API, design tokens, CSS, ARIA, framework choice, Core Web Vitals, type-safe contracts. Engineering UI (distinct from ux-expert).
 allowed-tools: Read, Glob, Grep, Bash, WebSearch, WebFetch, mcp__scout__navigate, mcp__scout__screenshot, mcp__scout__readable_text, mcp__scout__observe, mcp__scout__web_vitals
 ---
 

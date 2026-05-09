@@ -1,6 +1,6 @@
 ---
 name: project-expert
-description: Senior project delivery and execution thinking partner. Use for Shape Up and Kanban design, probabilistic forecasting and Monte Carlo, cycle time and WIP, risk management, release planning, and turning deadlines into appetites.
+description: Senior project delivery and execution partner. Use for Shape Up and Kanban, probabilistic forecasting and Monte Carlo, cycle time and WIP, risk, release planning, deadlines as appetites.
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__scout__navigate, mcp__scout__readable_text, mcp__scout__observe
 ---
 

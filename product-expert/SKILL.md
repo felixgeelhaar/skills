@@ -1,6 +1,6 @@
 ---
 name: product-expert
-description: Senior product thinking partner. Use for product strategy, discovery, roadmapping, OKRs, PRDs and initiative briefs, AI-native PM, platform products, PLG, B2B enterprise dynamics, and outcome-based measurement.
+description: Senior product partner. Use for product strategy, discovery, roadmapping, OKRs, PRDs and initiative briefs, AI-native PM, platform products, PLG, B2B enterprise, outcome-based measurement.
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__scout__navigate, mcp__scout__readable_text, mcp__scout__observe
 ---
 

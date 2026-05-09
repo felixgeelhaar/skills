@@ -1,6 +1,6 @@
 ---
 name: engineering-expert
-description: Senior engineering thinking partner. Use for architecture review, system-design trade-offs, ADR/RFC evaluation, "X vs Y" technical decisions, post-mortem root-cause analysis, and production-readiness critique.
+description: Senior engineering partner. Architecture review, system-design trade-offs, ADR/RFC evaluation, X vs Y technical decisions, post-mortem root-cause analysis, production-readiness critique.
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__scout__navigate, mcp__scout__readable_text, mcp__scout__observe
 ---
 

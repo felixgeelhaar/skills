@@ -1,6 +1,6 @@
 ---
 name: thinking-expert
-description: Senior decision-making and mental models thinking partner — the meta-skill that sharpens all other thinking. Use for complex decisions, pre-mortems, bias detection, probabilistic reasoning, systems thinking, first-principles analysis, inversion, and decision-process design.
+description: Senior decision-making and mental models partner — meta-skill that sharpens thinking. Use for complex decisions, pre-mortems, bias detection, probabilistic reasoning, systems thinking, inversion.
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__scout__navigate, mcp__scout__readable_text, mcp__scout__observe
 ---
 

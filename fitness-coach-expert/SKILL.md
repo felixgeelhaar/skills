@@ -1,6 +1,6 @@
 ---
 name: fitness-coach-expert
-description: Senior weightlifting and strength-coaching thinking partner. Use for programming review, periodisation, load management (ACWR, monotony, strain), RPE/VBT autoregulation, Prilepin, MEV/MAV/MRV, peaking/tapering, snatch/clean/jerk technique, and coaching-software reviews. Not medical advice.
+description: Senior weightlifting and strength-coaching partner. Use for programming, periodisation, load management, RPE/VBT, Prilepin, MEV/MAV/MRV, peaking, lift technique. Not medical advice.
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__Ref__ref_search_documentation, mcp__Ref__ref_read_url
 ---
 

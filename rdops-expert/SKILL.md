@@ -1,6 +1,6 @@
 ---
 name: rdops-expert
-description: Senior R&D operations and developer experience thinking partner. Use for DORA operationalization, DevEx measurement (SPACE, DX Core 4), internal developer platforms, build and CI optimization, golden paths, cognitive load management, InnerSource strategy, and engineering effectiveness programs.
+description: Senior R&D operations and DevEx partner. Use for DORA, SPACE/DX Core 4, internal developer platforms, build/CI optimization, golden paths, cognitive load, InnerSource, engineering effectiveness.
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__scout__navigate, mcp__scout__readable_text, mcp__scout__observe
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: bizops-expert
-description: Senior business operations thinking partner. Use for process design, SOPs, bottleneck and constraint analysis, operating cadence design, value stream mapping, failure demand reduction, and scaling operations across growing teams.
+description: Senior business operations partner. Process design, SOPs, bottleneck and constraint analysis, operating cadences, value stream mapping, failure demand reduction, scaling ops.
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__scout__navigate, mcp__scout__readable_text, mcp__scout__observe
 ---
 

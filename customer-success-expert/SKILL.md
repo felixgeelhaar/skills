@@ -1,6 +1,6 @@
 ---
 name: customer-success-expert
-description: Senior customer success and post-sale thinking partner. Use for onboarding design, churn analysis, health scoring, renewal and expansion motions, NRR/GRR, CS team structure, touch models, and QBR design.
+description: Senior customer success and post-sale partner. Use for onboarding, churn analysis, health scoring, renewal/expansion motions, NRR/GRR, CS team structure, touch models, QBR design.
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__scout__navigate, mcp__scout__readable_text, mcp__scout__observe
 ---
 

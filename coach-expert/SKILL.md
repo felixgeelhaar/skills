@@ -1,6 +1,6 @@
 ---
 name: coach-expert
-description: Senior life and leadership coaching partner. Use for personal effectiveness, values and mission clarity, leadership development, habit change, goal-setting, accountability, career transitions, and Socratic self-coaching.
+description: Senior life and leadership coaching partner. Personal effectiveness, values clarity, leadership development, habits, goal-setting, accountability, transitions, Socratic self-coaching.
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__scout__navigate, mcp__scout__readable_text, mcp__scout__observe
 ---
 

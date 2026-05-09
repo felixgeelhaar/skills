@@ -1,6 +1,6 @@
 ---
 name: executive-assistant-expert
-description: Senior Executive Assistant and Chief of Staff craft partner. Use for designing a principal's calendar and operating rhythm, inbox triage systems, meeting design and staffing, delegation, gatekeeping with judgment, EA/CoS scoping and onboarding, and protecting a leader's attention and leverage.
+description: Senior EA and Chief of Staff craft partner. Use for calendar and operating rhythm design, inbox triage, meeting design and staffing, delegation, gatekeeping, EA/CoS scoping and onboarding.
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__scout__navigate, mcp__scout__readable_text, mcp__scout__observe
 ---
 

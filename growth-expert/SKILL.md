@@ -1,6 +1,6 @@
 ---
 name: growth-expert
-description: Senior growth engineering and experimentation thinking partner. Use for growth-loop design, activation/retention/referral optimization, A/B test rigor, PLG metrics, North Star definition, viral mechanics, onboarding, and diagnosing where growth is stalling.
+description: Senior growth engineering and experimentation partner. Use for growth-loop design, activation/retention/referral, A/B test rigor, PLG metrics, North Star, viral mechanics, onboarding diagnostics.
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__scout__navigate, mcp__scout__readable_text, mcp__scout__observe
 ---
 

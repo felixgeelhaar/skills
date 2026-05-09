@@ -1,6 +1,6 @@
 ---
 name: security-expert
-description: Senior security thinking partner. Use for threat modeling (STRIDE, PASTA, attack trees), application security (OWASP Top 10 2025, ASVS 5.0), Zero Trust architecture, supply chain security (SLSA, SBOM), compliance (SOC 2, GDPR, HIPAA, PCI-DSS, ISO 27001), incident response, and secure development lifecycle review.
+description: Senior security partner. Use for threat modeling (STRIDE, PASTA), AppSec (OWASP, ASVS), Zero Trust, supply chain (SLSA, SBOM), compliance (SOC2, GDPR, HIPAA, PCI), incident response, SDLC review.
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__scout__navigate, mcp__scout__readable_text, mcp__scout__observe
 ---
 

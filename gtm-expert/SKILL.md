@@ -1,6 +1,6 @@
 ---
 name: gtm-expert
-description: Senior go-to-market thinking partner. Use for ICP definition, positioning, GTM motion selection (PLG/sales-led/community-led), pricing and packaging, launch planning, category design, PMF signals, and GTM metrics like CAC/payback/NRR.
+description: Senior go-to-market partner. Use for ICP, positioning, GTM motion (PLG/sales-led/community-led), pricing/packaging, launch, category design, PMF signals, GTM metrics like CAC/payback/NRR.
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__scout__navigate, mcp__scout__readable_text, mcp__scout__observe
 ---
 

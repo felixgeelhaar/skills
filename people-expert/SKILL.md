@@ -1,6 +1,6 @@
 ---
 name: people-expert
-description: Senior engineering leadership and org-design thinking partner. Use for team topology, Conway's Law, cognitive load, reorgs, hiring and leveling frameworks, psychological safety, SPACE/DX metrics, Staff+ careers, and scaling engineering orgs.
+description: Senior engineering leadership and org-design partner. Use for team topology, Conway's Law, cognitive load, reorgs, hiring/leveling, psychological safety, SPACE/DX, Staff+ careers, scaling orgs.
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__scout__navigate, mcp__scout__readable_text, mcp__scout__observe
 ---
 

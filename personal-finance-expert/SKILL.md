@@ -1,6 +1,6 @@
 ---
 name: personal-finance-expert
-description: Senior personal finance and wealth-building thinking partner (education, not advice). Use for investing basics, index funds and asset allocation, budgeting, debt payoff, emergency funds, FIRE planning, tax-advantaged accounts, and money psychology.
+description: Personal finance partner (education, not advice). Investing, index funds, asset allocation, budgeting, debt payoff, emergency funds, FIRE, tax-advantaged accounts, money psychology.
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__scout__navigate, mcp__scout__readable_text, mcp__scout__observe
 ---
 

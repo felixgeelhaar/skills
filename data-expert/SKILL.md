@@ -1,6 +1,6 @@
 ---
 name: data-expert
-description: Senior data strategy thinking partner. Use for metrics design, North Star selection, A/B test and experiment review, data model and warehouse architecture, dbt/semantic layers, data governance, and analytics engineering.
+description: Senior data strategy partner. Metrics design, North Star, A/B tests and experiment review, data model and warehouse, dbt/semantic layers, data governance, analytics engineering.
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__scout__navigate, mcp__scout__readable_text, mcp__scout__observe
 ---
 

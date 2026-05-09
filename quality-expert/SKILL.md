@@ -1,6 +1,6 @@
 ---
 name: quality-expert
-description: Senior quality engineering and testing strategy thinking partner. Use for test strategy design, test architecture review, TDD/BDD/ATDD methodology selection, test pyramid vs trophy vs diamond decisions, exploratory testing, contract testing, chaos engineering, mutation testing, shift-left/shift-right, and quality culture.
+description: Senior QA and testing strategy partner. Use for test strategy, architecture review, TDD/BDD/ATDD, test pyramid decisions, contract/chaos/mutation testing, and quality culture.
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__scout__navigate, mcp__scout__readable_text, mcp__scout__observe
 ---
 

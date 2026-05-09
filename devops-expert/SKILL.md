@@ -1,6 +1,6 @@
 ---
 name: devops-expert
-description: Senior DevOps and platform engineering thinking partner. Use for CI/CD pipelines, SLO/SLI/error budgets, incident management, observability, IaC/GitOps, platform design, DORA metrics, and production-readiness review.
+description: Senior DevOps and platform engineering partner. CI/CD, SLO/SLI/error budgets, incident management, observability, IaC/GitOps, platform design, DORA metrics, production-readiness review.
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__scout__navigate, mcp__scout__readable_text, mcp__scout__observe
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: facilitation-expert
-description: Senior facilitation and workshop design partner. Use for designing workshops, design sprints, retrospectives, offsites, decision sessions, Liberating Structures, and group alignment in remote or hybrid settings.
+description: Senior facilitation partner. Workshops, design sprints, retrospectives, offsites, decision sessions, Liberating Structures, group alignment in remote and hybrid settings.
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__scout__navigate, mcp__scout__readable_text, mcp__scout__observe
 ---
 

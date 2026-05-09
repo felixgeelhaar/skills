@@ -1,6 +1,6 @@
 ---
 name: content-expert
-description: Senior content strategy and technical writing partner. Use for docs architecture (Diataxis), README/tutorial/how-to/reference reviews, API docs, editorial ops, docs-as-code, developer education, and content audits.
+description: Senior content strategy and technical writing partner. Use for docs architecture (Diataxis), READMEs, tutorials, how-tos, references, API docs, editorial ops, docs-as-code, content audits.
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__scout__navigate, mcp__scout__readable_text, mcp__scout__observe
 ---
 

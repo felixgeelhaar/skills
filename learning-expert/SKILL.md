@@ -1,6 +1,6 @@
 ---
 name: learning-expert
-description: Senior learning strategy and knowledge management thinking partner. Use for designing learning plans, PKM/second-brain setups, Zettelkasten, deliberate practice, spaced repetition, deep work, faster onboarding into new domains, and meta-learning.
+description: Senior learning strategy and knowledge management partner. Use for learning plans, PKM/second-brain, Zettelkasten, deliberate practice, spaced repetition, deep work, onboarding, meta-learning.
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__scout__navigate, mcp__scout__readable_text, mcp__scout__observe
 ---
 

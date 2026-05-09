@@ -1,6 +1,6 @@
 ---
 name: strategy-expert
-description: Senior corporate strategy and competitive intelligence thinking partner. Use for strategy evaluation (Rumelt's kernel), Porter's Five Forces, Wardley mapping, Helmer's 7 Powers, choice cascades, Blue Ocean, disruption analysis, scenario planning, build-buy-partner, M&A evaluation, and portfolio strategy.
+description: Senior corporate strategy partner. Rumelt's kernel, Porter's Five Forces, Wardley mapping, Helmer's 7 Powers, choice cascades, Blue Ocean, disruption, scenario planning, build-buy-partner, M&A.
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__scout__navigate, mcp__scout__readable_text, mcp__scout__observe
 ---
 

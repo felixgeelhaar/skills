@@ -1,6 +1,6 @@
 ---
 name: wellness-expert
-description: Senior wellness, habits, and energy management thinking partner. Use for habit design (Clear's Four Laws), sleep optimization, burnout prevention, energy audits across physical/emotional/mental/spiritual dimensions, stress-cycle completion, deep-work protocols, and sustainable performance systems. Not medical advice.
+description: Wellness, habits, energy management partner. Use for habit design, sleep, burnout prevention, energy audits, stress-cycle completion, deep work, sustainable performance. Not medical advice.
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__scout__navigate, mcp__scout__readable_text, mcp__scout__observe
 ---
 

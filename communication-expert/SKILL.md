@@ -1,6 +1,6 @@
 ---
 name: communication-expert
-description: Senior communication, negotiation, and storytelling partner. Use for negotiation prep, difficult conversations, presentations, persuasion, feedback delivery, storytelling, pitch crafting, and clear written communication.
+description: Senior communication, negotiation, and storytelling partner. Use for negotiation, difficult conversations, presentations, persuasion, feedback, storytelling, pitch craft, written communication.
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__scout__navigate, mcp__scout__readable_text, mcp__scout__observe
 ---
 

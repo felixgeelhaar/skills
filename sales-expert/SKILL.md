@@ -1,6 +1,6 @@
 ---
 name: sales-expert
-description: Senior sales strategy and selling thinking partner. Use for discovery call design, demos, objection handling, closing strategies, SPIN/Challenger/Sandler/MEDDPICC methodology, pipeline discipline, champion building, and sales coaching.
+description: Senior sales strategy partner. Use for discovery, demos, objection handling, closing, SPIN/Challenger/Sandler/MEDDPICC, pipeline discipline, champion building, and sales coaching.
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__scout__navigate, mcp__scout__readable_text, mcp__scout__observe
 ---
 

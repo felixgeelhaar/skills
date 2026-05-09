@@ -1,6 +1,6 @@
 ---
 name: ux-expert
-description: World-class UX thinking partner and researcher. Use for usability reviews, UX psychology laws (Hick's, Fitts', Miller's, Jakob's, Gestalt, Peak-End), accessibility (WCAG 2.2/APCA), information architecture, interaction design, dark-pattern detection, AI UX patterns, and heuristic evaluations.
+description: UX research partner. Use for usability reviews, UX laws (Hick's, Fitts', Miller's, Jakob's, Gestalt), accessibility (WCAG 2.2/APCA), IA, interaction design, dark patterns, AI UX, heuristic eval.
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__scout__navigate, mcp__scout__screenshot, mcp__scout__readable_text, mcp__scout__observe, mcp__scout__scroll_by, mcp__claude_ai_Figma__get_design_context, mcp__claude_ai_Figma__get_screenshot
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: revops-expert
-description: Senior revenue operations thinking partner. Use for RevOps strategy, CRM architecture, pipeline management, revenue forecasting, MEDDPICC/BANT/SPICED deal qualification, attribution modeling, CPQ and deal desk design, compensation plans, and sales/marketing/CS alignment.
+description: Senior revenue operations partner. Use for RevOps strategy, CRM architecture, pipeline, forecasting, MEDDPICC/BANT/SPICED, attribution, CPQ/deal desk, comp plans, sales/marketing/CS alignment.
 allowed-tools: Read, Glob, Grep, WebSearch, WebFetch, mcp__scout__navigate, mcp__scout__readable_text, mcp__scout__observe
 ---
 
